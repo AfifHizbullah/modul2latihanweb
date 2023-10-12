@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulir Pendaftaran</h2>
+        <form id="registrationForm" onsubmit="return validateForm()">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama">
+            <div class="error" id="namaError"></div>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <div class="error" id="emailError"></div>
+
+            <label for="alamat">Alamat:</label>
+            <input type="text" id="alamat" name="alamat">
+            <div class="error" id="alamatError"></div>
+
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+
+    <script src="java.js">
+
+    </script>
+</body>
+</html>
